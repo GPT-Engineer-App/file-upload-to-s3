@@ -34,7 +34,7 @@ const Index = () => {
   };
 
   return (
-    <Container centerContent maxW="container.md" padding={4}>
+    <Container centerContent maxW="container.md" padding={4} bg="blue.500">
       <VStack spacing={4} width="100%">
         <Text fontSize="2xl">Upload File to S3</Text>
         <Input type="file" onChange={handleFileChange} placeholder="Select file" size="md" />
